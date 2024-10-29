@@ -55,7 +55,7 @@ d) As part of the installation, if the user has chosen the option to install wit
   ![redash setings page](../static/img/redash-settings-page.png)
 
 
-e) Now it will ask to include formsflow data analysis api in the installation. Chose **'y'** or **'n'** according to your preference:
+e) Now it will ask to include **formsflow data analysis api** in the installation. Chose **'y'** or **'n'** according to your preference:
 
 ![formsflow data analysis api prompt](../static/img/data-analysis-api-prompt.png)
 
