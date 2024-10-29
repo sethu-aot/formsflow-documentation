@@ -9,10 +9,10 @@ Ensure you have the following installed:
 ## Step-by-Step Installation
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/AOT-Technologies/formsflow-documentation.git
-   cd formsflow-documentation
-   ```
+```bash
+git clone https://github.com/AOT-Technologies/formsflow-documentation.git
+cd formsflow-documentation
+```
 2. **Install Dependencies**
 
 Run the following command to install the required Node.js packages:
