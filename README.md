@@ -1,41 +1,38 @@
-# Website
+# Installation Guide for Local Setup
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Prerequisites
 
-### Installation
+Ensure you have the following installed:
+- **Node.js** (version 16 or higher)
+- **Git**
 
-```
-$ yarn
-```
+## Step-by-Step Installation
 
-### Local Development
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/AOT-Technologies/formsflow-documentation.git
+   cd formsflow-documentation
+   ```
+2. **Install Dependencies**
 
-```
-$ yarn start
-```
+Run the following command to install the required Node.js packages:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm install
 ```
 
-Not using SSH:
+3. **Start the Local Development Server**
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+Start the Docusaurus server to preview the documentation:
+
+```bash
+npm start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The site will be accessible at http://localhost:3000 by default.
+
+
+
+
+
+
