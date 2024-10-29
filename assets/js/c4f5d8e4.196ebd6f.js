@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite_1=self.webpackChunkwebsite_1||[]).push([[634],{192:(e,u,s)=>{s.r(u),s.d(u,{default:()=>f});var t=s(6540),n=s(6347);function f(){const e=(0,n.W6)();return(0,t.useEffect)((()=>{e.push("/formsflow-documentation/linux")}),[e]),null}}}]);
