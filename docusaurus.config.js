@@ -1,9 +1,4 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -12,20 +7,15 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/', // Base URL for your project
 
-  // GitHub pages deployment config.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'facebook', // Your GitHub org/user name
+  projectName: 'docusaurus', // Your repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Internationalization
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -37,8 +27,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/', // Serve docs at the root URL
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,7 +54,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'hhttps://github.com/AOT-Technologies/forms-flow-ai-deployment',
+            href: 'https://github.com/AOT-Technologies/forms-flow-ai-deployment',
             label: 'GitHub',
             position: 'right',
           },
@@ -77,8 +67,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Installation',
+                href: 'https://aot-technologies.github.io/forms-flow-installation-eks/docs/intro',
               },
             ],
           },
@@ -87,15 +77,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/formsflow.ai',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Camunda Community Hub',
+                href: 'https://github.com/camunda-community-hub',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Keycloak Group',
+                href: 'https://keycloak.discourse.group/',
               },
             ],
           },
@@ -109,7 +99,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © formsflow.ai ${new Date().getFullYear()} All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,
