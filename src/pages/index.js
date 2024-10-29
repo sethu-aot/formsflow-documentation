@@ -6,7 +6,7 @@ export default function Home() {
 
   useEffect(() => {
     // Redirect to the tutorials page
-    history.push('/linux');
+    history.push('/formsflow-documentation/linux');
   }, [history]);
 
   return null; // Nothing to render since we're redirecting

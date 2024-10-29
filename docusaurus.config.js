@@ -3,15 +3,15 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Formsflow Installation',
+  tagline: 'Formsflow inatsllation',
+  favicon: 'img/favicon.png',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/', // Base URL for your project
+  url: 'https://sethu-aot.github.io',
+  baseUrl: '/formsflow-documentation/', // Base URL for your project
 
-  organizationName: 'facebook', // Your GitHub org/user name
-  projectName: 'docusaurus', // Your repo name
+  organizationName: 'sethu-aot', // GitHub org/user name
+  projectName: 'formsflow-documentation', // repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,10 +40,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
       navbar: {
         logo: {
-          alt: 'My Site Logo',
+          alt: 'formsflow Logo',
           src: 'img/logo.png',
         },
         items: [
